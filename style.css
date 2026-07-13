@@ -879,9 +879,9 @@ footer a:hover{
         background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-        height: 54vh;
+        /* height: 24vh; */
         width: 100%;
-        padding-top: 100%;
+        padding-top: 108%;
     }
     #about-sect1 h4{
         font-size: larger;
@@ -891,24 +891,18 @@ footer a:hover{
     #about-sect1 h2{
         font-size: x-large;
         margin-top: 5%;
-        margin-bottom: 40%;
         color: black;
     }
     #about-sect2{
-        margin-top: 40%;
+        margin-top: 25%;
     }
     #about-sect2 p{
-        /* padding-right: 1%; */
-        /* margin-right: 2%; */
-        /* text-align: center; */
         font-size: 16px;
     }
     #about-sect3 p{
         font-size:large;
         line-height: 5vh;
         margin-bottom: 7vh;
-        /* margin-right: 2%; */
-        /* margin-left: 2%; */
     }
     #about-sect4 img{
         width: 30%;
@@ -922,7 +916,12 @@ footer a:hover{
         font-size: 10px;
         padding-top: 2vh;
     }
-    
+    #contact-sect1{
+     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+}
     .contact-map iframe{
         width: 90%;
     }
