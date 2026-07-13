@@ -616,6 +616,9 @@ footer a:hover{
         position: fixed;
         z-index: 1005;
     }
+    header img{
+        display: none;
+    }
     #nav-bar{
          display:none;
         position:fixed;      
@@ -826,10 +829,15 @@ footer a:hover{
     .hero-i h4{
         font-size: larger;
         width: 45%;
+        margin-top: 4%;
+    }
+    .hero-i h2{
+        font-size: larger;
+        padding-right: 40%;
     }
     .hero-i p{
         padding-right: 10%;
-        font-size: 25px;
+        font-size: 18px;
     }
     #hero a{
         width: 45%;
@@ -846,7 +854,12 @@ footer a:hover{
         margin-left: 38%;
     }
     #about-sect1{
-        padding-top: 117%;
+        background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+        height: 70vh;
+        width: 100%;
+        padding-top: 79%;
     }
     #about-sect1 h4{
         font-size: larger;
@@ -855,7 +868,7 @@ footer a:hover{
     #about-sect1 h2{
         font-size: x-large;
         margin-top: 2%;
-        color: white;
+        color: black;
     }
     #about-sect2{
         margin-top: 25%;
@@ -863,26 +876,26 @@ footer a:hover{
     #about-sect2 p{
         /* padding-right: 1%; */
         /* margin-right: 2%; */
-        text-align: center;
-        font-size: x-large;
+        /* text-align: center; */
+        font-size: 16px;
     }
     #about-sect3 p{
-        font-size:x-large;
+        font-size:large;
         line-height: 5vh;
         margin-bottom: 7vh;
-        margin-right: 2%;
-        margin-left: 2%;
+        /* margin-right: 2%; */
+        /* margin-left: 2%; */
     }
     #about-sect4 img{
         width: 30%;
-        height: 20vh;
+        height: 15vh;
         margin-top: 1%;
     }
     #about-sect4 h2{
         font-size:larger;
     }
     #about-sect4 p{
-        font-size: 18px;
+        font-size: 10px;
         padding-top: 2vh;
     }
     
@@ -891,5 +904,21 @@ footer a:hover{
     }
     .contact-map p{
         font-size: 18px;
+    }
+    #footer p{
+        font-size: 16px;
+    }
+    #footer h5{
+        font-size: 1rem;
+    }
+    .bx-chevrons-down{
+        font-size: 15px !important;
+    }
+    #footer a{
+        font-size: 12px;
+        border-radius: 5px;
+    }
+    .f-p{
+        font-size: 10px;
     }
 }
