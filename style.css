@@ -879,9 +879,8 @@ footer a:hover{
         background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-        /* height: 24vh; */
         width: 100%;
-        padding-top: 108%;
+        padding-top: 100%;
     }
     #about-sect1 h4{
         font-size: larger;
@@ -898,6 +897,7 @@ footer a:hover{
     }
     #about-sect2 p{
         font-size: 16px;
+        line-height: 3vh;
     }
     #about-sect3 p{
         font-size:large;
