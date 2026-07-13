@@ -880,16 +880,16 @@ footer a:hover{
     background-repeat: no-repeat;
     background-position: center;
         width: 100%;
-        padding-top: 108%;
+        height: 10vh;
+        padding-bottom: 9%;
     }
     #about-sect1 h4{
         font-size: larger;
         border-radius: 10px;
-        margin-top: 10%;
     }
     #about-sect1 h2{
         font-size: x-large;
-        margin-top: 5%;
+        margin-top: 2%;
         color: black;
     }
     #about-sect2{
