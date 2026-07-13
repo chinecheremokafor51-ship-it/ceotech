@@ -784,6 +784,15 @@ footer a:hover{
     margin-top: 15%;
     padding-top: 57.5%;
 }
+#about-sect1 h4{
+        font-size: larger;
+        border-radius: 10px;
+    }
+    #about-sect1 h2{
+        font-size: x-large;
+        margin-top: 2%;
+        color: black;
+    }
 #about-sect2{
   margin-top: 18%;
 }
