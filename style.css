@@ -881,7 +881,7 @@ footer a:hover{
     background-position: center;
         height: 54vh;
         width: 100%;
-        padding-top: 59%;
+        padding-top: 100%;
     }
     #about-sect1 h4{
         font-size: larger;
@@ -895,7 +895,7 @@ footer a:hover{
         color: black;
     }
     #about-sect2{
-        margin-top: 35%;
+        margin-top: 40%;
     }
     #about-sect2 p{
         /* padding-right: 1%; */
