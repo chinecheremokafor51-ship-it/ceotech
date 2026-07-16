@@ -201,6 +201,28 @@ h5{
 .project:hover{
     background-color: black;
 }
+#promo{
+    margin-top: 6%;
+    text-align: center;
+}
+#promo h2{
+    padding-bottom: 1%;
+    font-size: 3rem;
+    color:#0542a3;
+     font-family: "Inter Tight", sans-serif;
+}
+#promo h4{
+    padding-bottom: 3%;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 300;
+}
+#promo img{
+    width: 50%;
+    border: 2px solid #0542a3;
+    border-radius: 10px;
+    margin-bottom: 2%;
+}
 footer{
     background-color: rgb(226, 226, 226);
     border-top: 8px solid #081f45;
@@ -816,6 +838,27 @@ footer a:hover{
 .contact-map p{
     font-size: larger;
     padding-bottom: 2%;
+}
+#promo h2{
+    font-size: 1.3rem;
+    padding-top: 2%;
+}
+#promo h4{
+    font-size: 1rem;
+    padding-top: 2%;
+    padding-bottom: 4%;
+    font-style: normal;
+    padding-left: 3%;
+    padding-right: 4%;
+}
+#promo img{
+    margin-top: 4%;
+    width: 80%;
+    transition: transform 2s ease-in-out;
+}
+#promo img:hover{
+    transform: scale(1.1);
+ background: #00bfff;
 }
 }
 @media(max-width: 400px){
